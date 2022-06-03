@@ -97,27 +97,27 @@ footer{
 
 #parrafoindex{
     font-size: 18px;
-    font-family: 'Alfa Slab One', cursive;
+    
     text-align: center;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    padding: 30px 100px 0 100px;
-    grid-area: parrafo;
+    
+    
 }
 
 .img{
    padding: 25px;
    justify-content: center;
    text-align: center;
-   grid-template-areas: imagen;
+  
 }
 
 #sectionindex{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    grid-template-areas: sectionindex;
+    
 }
 
 #divuno{
@@ -156,7 +156,6 @@ footer{
          display: initial;
      }
      #parrafoindex{
-        font-size: 14px;
         padding: 10px 25px 10px 25px;
     }
 
@@ -176,9 +175,7 @@ footer{
 @media screen and (max-width: 768px){
     main{display: initial;}
 
-    #parrafoindex{
-     font-size: 16px;
-    }
+    
 }
 
 /* ........................................................recitales....................................................... */
